@@ -61,7 +61,7 @@ namespace RTSGame
 
         private void rtbMap_MouseClick(object sender, MouseEventArgs e)
         {
-            lblUnitInformation.Text = "Fired";
+            lblUnitInformation.Text = "";
             int mouseX = MousePosition.X;
             int mouseY = MousePosition.Y;
 
