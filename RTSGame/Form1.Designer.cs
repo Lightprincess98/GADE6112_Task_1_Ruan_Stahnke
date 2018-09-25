@@ -48,7 +48,6 @@
             this.rtbMap.Size = new System.Drawing.Size(478, 466);
             this.rtbMap.TabIndex = 0;
             this.rtbMap.Text = " ";
-            this.rtbMap.Click += new System.EventHandler(this.rtbMap_Click);
             this.rtbMap.MouseClick += new System.Windows.Forms.MouseEventHandler(this.rtbMap_MouseClick);
             // 
             // btnStart

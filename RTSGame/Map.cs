@@ -57,6 +57,7 @@ namespace RTSGame
             }
         }
 
+        //Places all the units on the Map.
         public void SetUnits()
         {
             Random rnd = new Random();
@@ -119,7 +120,7 @@ namespace RTSGame
             }
         }
 
-
+        //Checks the health of all the units and remove them from list if needed.
         public void checkHealth()
         {
             for (int i = 0; i < unitsOnMapNum; i++)

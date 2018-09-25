@@ -25,6 +25,7 @@ namespace RTSGame
             map.SetUnits();
         }
 
+        //Hosts the game Rules & handles all the combat methods
         public void Combat()
         {
             Random rnd = new Random();

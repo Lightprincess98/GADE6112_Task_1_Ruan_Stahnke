@@ -12,10 +12,13 @@ namespace RTSGame
 {
     public partial class RTSGame : Form
     {
+        #region Variables
         int seconds = 0;
         int minutes = 0;
         GameEngine gameEngine = new GameEngine();
+        #endregion
 
+        #region Methods
         public RTSGame()
         {
             InitializeComponent();
@@ -91,10 +94,6 @@ namespace RTSGame
                 rtbMap.Text += Environment.NewLine;
             }
         }
-
-        private void rtbMap_Click(object sender, EventArgs e)
-        {
-            
-        }
+        #endregion
     }
 }
